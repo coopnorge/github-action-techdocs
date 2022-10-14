@@ -1,0 +1,12 @@
+---
+name: TechDocs
+description: TechDocs Tooling
+inputs:
+  cmd:  # id of input
+    description: Command to run
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.cmd }}
