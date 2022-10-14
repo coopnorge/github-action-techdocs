@@ -6,6 +6,7 @@ metadata:
   description: TechDocs GitHub container action wrapping the TechDocs engineering image
   annotations:
     github.com/project-slug: coopnorge/github-action-techdocs
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: library
   lifecycle: experimental
