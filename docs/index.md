@@ -2,7 +2,7 @@
 
 TechDocs GitHub container action wrapping the TechDocs engineering image.
 
-This is experimental, v0 is subject breaking changes
+This is experimental, v0 is subject to breaking changes
 
 ## Usage
 
