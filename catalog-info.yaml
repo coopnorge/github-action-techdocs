@@ -3,6 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: github-action-techdocs
+  title: TechDocs GitHub Action
   description: TechDocs GitHub container action wrapping the TechDocs engineering image
   annotations:
     github.com/project-slug: coopnorge/github-action-techdocs
