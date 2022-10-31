@@ -1,4 +1,4 @@
-* @coopnorge/engineering
+* @coopnorge/developer-productivity
 
 /CODEOWNERS @coopnorge/cloud-security
 .github/workflows/security-* @coopnorge/cloud-security
