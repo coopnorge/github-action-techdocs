@@ -1,0 +1,30 @@
+site_name: !ENV SITE_NAME
+repo_name: !ENV [REPO_NAME, null]
+repo_url: !ENV [REPO_URL, null]
+edit_uri: !ENV [EDIT_URI, null]
+plugins:
+  - techdocs-core
+  - htmlproofer:
+      validate_external_urls: false
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+  - awesome-pages
+  - ezlinks:
+      warn_ambiguities: true
+  - kroki
+  - glightbox
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.highlight:
+      use_pygments: true
+      auto_title: true
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+  - pymdownx.tilde
+  - pymdownx.tasklist
+  - pymdownx.emoji
+  - pymdownx.tabbed:
+      alternate_style: true
