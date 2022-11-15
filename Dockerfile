@@ -1,4 +1,4 @@
-FROM ghcr.io/coopnorge/engineering-docker-images/e0/techdocs:latest@sha256:1d588a6f676a3d85509cb5fa0d6a47bd7e5830f791efe8e10e75f50a2b827c7a as techdocs
+FROM ghcr.io/coopnorge/engineering-docker-images/e0/techdocs:latest@sha256:9c4796ff65e3161219d9124e7655e45a56bd0e1d627b00005191cb7379467a73 as techdocs
 
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
